@@ -1,7 +1,7 @@
 # Wine-Quality-Prediction
 
 ### About
-The original dataset in the UCI Machine Learning Repository which includes two datasets about red wine and white wine. 
+The original dataset in the UCI Machine Learning Repository which includes two datasets about red wine and white wine. Performed classification and regression to predict wine quality. 
 
 ### Approaches Followed:
 #### Classification
@@ -56,3 +56,14 @@ Let's understand these features.
 | Total Sulphur Dioxide | Negative (if too low) |
 | pH | Weak to moderate impact |
 | Density | Negative (if too high) |
+
+
+## Citation 
+```bibtex
+@misc{wine_quality_186,
+  author       = {Cortez, Paulo, Cerdeira, A., Almeida, F., Matos, T., and Reis, J.},
+  title        = {{Wine Quality}},
+  year         = {2009},
+  howpublished = {UCI Machine Learning Repository},
+  note         = {{DOI}: https://doi.org/10.24432/C56S3T}
+}
