@@ -58,7 +58,7 @@ Let's understand these features.
 | Density | Negative (if too high) |
 
 
-## Citation 
+## Citations
 ```bibtex
 @misc{wine_quality_186,
   author       = {Cortez, Paulo, Cerdeira, A., Almeida, F., Matos, T., and Reis, J.},
