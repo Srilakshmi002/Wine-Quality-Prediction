@@ -15,7 +15,7 @@ The original dataset in the UCI Machine Learning Repository which includes two d
 - Polynomial Regression
 - Logistical Regression
 
-#### Understanding the Red wine dataset
+### Understand the columns in the dataset and how to calculate them.
 It has a total of 11 physiochemical features and 1 target variable (Quality).
 Let's understand these features.
 1. Fixed Acidity
