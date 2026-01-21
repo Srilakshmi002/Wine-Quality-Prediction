@@ -1,22 +1,23 @@
 # Wine-Quality-Prediction
 
-### About
-The original dataset in the UCI Machine Learning Repository which includes two datasets about red wine and white wine. Performed classification and regression to predict wine quality. 
+[![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)](https://www.r-project.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-### Approaches Followed:
-#### Classification
-- Random Forest
-- SVM
-- Decision Tree
-- KNN
-  
-#### Regression
-- Linear Regression
-- Polynomial Regression
-- Logistical Regression
+## Overview
+This project predicts wine quality using machine learning on the UCI Wine Quality dataset, focusing on red wine. It performs classification to categorize quality scores (3-8) based on 11 physicochemical features. Currently implemented for red wine using Random Forest and SVM models, achieving approximately 68% accuracy with Random Forest.
 
-### Understand the columns in the dataset and how to calculate them.
-It has a total of 11 physiochemical features and 1 target variable (Quality).
+- **Dataset**: Red and white wine variants from UCI Machine Learning Repository.
+- **Technologies**: R, packages: randomForest, e1071, readxl.
+- **Goals**: Explore feature impacts on quality and build predictive models.
+- **Key Insights**: Volatile acidity negatively impacts quality; alcohol has a positive correlation.
+
+## Dataset
+
+The dataset includes two files:
+- [winequality-red.xlsx](winequality-red.xlsx) (1,599 samples)
+- [winequality-white.xlsx](winequality-white.xlsx) (4,898 samples) – Analysis pending.
+
+It has 11 physicochemical features and 1 target variable (Quality). Let's understand these features:
 Let's understand these features.
 1. Fixed Acidity
 - Non-volatile acids like tartaric, malic, citric acids that don't evaporate easily. It is measured in g/dm^3 (grams per cubic decimeter). It contributes to the wine's **tartness**. Higher values indicate better freshness, but excessive amounts result in harsh taste.
